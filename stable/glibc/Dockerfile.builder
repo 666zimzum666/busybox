@@ -4,7 +4,7 @@
 # PLEASE DO NOT EDIT IT DIRECTLY.
 #
 
-FROM debian:bullseye-slim
+FROM mips64le/debian:bullseye-slim
 
 RUN set -eux; \
 	apt-get update; \
