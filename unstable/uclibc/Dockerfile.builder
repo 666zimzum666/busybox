@@ -4,7 +4,7 @@
 # PLEASE DO NOT EDIT IT DIRECTLY.
 #
 
-FROM debian:bullseye-slim
+FROM arm32v7/debian:bullseye-slim
 
 RUN set -eux; \
 	apt-get update; \
